@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}

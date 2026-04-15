@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1001;
+  color: #282c34;
+}
+
+.logout-tab {
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1001;
+  padding: 10px 15px;
+  background-color: #ff4d4f;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.logout-tab:hover {
+  background-color: #ff7875;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 36px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-box {
+  background-color: #282c34;
+  padding: 40px;
+  border-radius: 10px;
+  color: white;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-box input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-box button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  cursor: pointer;
+}
+
+.signup-link {
+  color: #61dafb;
+  cursor: pointer;
+}
